@@ -292,7 +292,7 @@
         <ctl name="SLIM RX1 MUX" value="AIF1_PB" />
         <ctl name="SLIM_0_RX Channels" value="One" />
         <ctl name="RX7 MIX1 INP1" value="RX1" />
-        <ctl name="RX7 Digital Volume" value="88" />
+        <ctl name="RX7 Digital Volume" value="95" />
         <ctl name="SPK DRV Volume" value="6" />
     </path>
 
@@ -323,10 +323,10 @@
         <ctl name="RX2 MIX1 INP1" value="RX2" />
         <ctl name="CLASS_H_DSM MUX" value="DSM_HPHL_RX1" />
         <ctl name="HPHL DAC Switch" value="1" />
-        <ctl name="RX1 Digital Volume" value="83" />
-        <ctl name="RX2 Digital Volume" value="83" />
-        <ctl name="HPHL Volume" value="15" />
-        <ctl name="HPHR Volume" value="15" />
+        <ctl name="RX1 Digital Volume" value="90" />
+        <ctl name="RX2 Digital Volume" value="90" />
+        <ctl name="HPHL Volume" value="20" />
+        <ctl name="HPHR Volume" value="20" />
     </path>
 
     <path name="headset-mic">
@@ -411,6 +411,12 @@
         <ctl name="ADC1 Volume" value="15" />
         <ctl name="DEC6 Volume" value="88"/>
     </path>
+
+    <path name="voice-rec-mic-mod">                                        
+        <path name="handset-mic" />                                    
+        <ctl name="ADC1 Volume" value="15" />                          
+        <ctl name="DEC6 Volume" value="88"/>                           
+    </path> 
 
     <path name="camcorder-mic">
         <path name="handset-mic" />
